@@ -1,0 +1,21 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "Funding"
+    url: /funding/
+  - title: "Lab members"
+    url: /lab-members/
+  - title: "Publications"
+    url: /publications/
+  - title: "Contact us"
+    url: /contact/
+
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

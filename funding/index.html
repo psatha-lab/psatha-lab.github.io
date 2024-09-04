@@ -9,42 +9,43 @@
   <head>
     <meta charset="utf-8">
 
+<style>
+    .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+  .gallery-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+  }
+  
+  .gallery-image {
+      height: 200px; /* Set the fixed height */
+      width: auto; /* Let width adjust proportionally */
+      object-fit: cover; /* Ensure it fills the space appropriately */
+      display: block;
+  }
+  
+  .gallery-text {
+      margin-top: 10px;
+      text-align: center;
+  }
+</style>
+
 <!-- begin _includes/seo.html --><title>Psatha Lab</title>
 <meta name="description" content="This the webspace of the Psatha Lab">
-
-
-  <meta name="author" content="Nikoletta Psatha">
-  
-
-
+<meta name="author" content="Nikoletta Psatha">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Psatha Lab">
 <meta property="og:title" content="Psatha Lab">
 <meta property="og:url" content="http://localhost:4000/funding/">
-
-
-  <meta property="og:description" content="This the webspace of the Psatha Lab">
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
+<meta property="og:description" content="This the webspace of the Psatha Lab">
 <link rel="canonical" href="http://localhost:4000/funding/">
-
-
-
 
 <script type="application/ld+json">
   {
@@ -57,17 +58,9 @@
   }
 </script>
 
-
-
-
-
-
-
 <!-- end _includes/seo.html -->
 
-
-
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Psatha Lab Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Psatha Lab Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -148,7 +141,18 @@
     <section class="page__content" itemprop="text">
       <p><br /></p>
 
+
+
 <h1 style="text-align: center;">Our funding sources</h1>
+
+<div class="gallery-container">
+  <div class="gallery-item">
+      <img src="/assets/EHA_Logo.jpg" alt="EHA" class="gallery-image">
+      <p class="gallery-text">European Hematology Association</p>
+  </div>
+  <!-- Repeat for other images -->
+</div>
+
 
     </section>
   </article>
